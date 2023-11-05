@@ -112,3 +112,8 @@ h1{
 .add{
      background-color: #5358B6
 }
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
