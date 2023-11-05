@@ -1,0 +1,114 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+   background-color: #f5f6fa; 
+   font-size: 16px ;
+   font-family: sans-serif;
+
+}
+body>main{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+section{
+    background-color: #fff;
+     padding:  2rem;
+     border-radius: 20px;
+     margin: 2rem 0;
+    
+}
+
+textarea{
+    width: 100%;
+    width: 100%;border-radius: 10px;
+    outline: none;
+    border: 1px solid  gainsboro;
+    padding: 1rem;
+    font-size: 1rem;
+    resize: none; 
+   
+}
+.redact-container{
+    display: flex ;
+
+    margin-top: 2rem;
+    align-items: center;
+}
+button{
+    padding: 0.8rem 2rem ;
+    margin: 0 1rem;
+ border-radius: 5px;
+ border: 0px;
+ outline: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+    background-color: #5358B6;
+    color: white;
+}
+button:active{
+    
+    background-color: #6b71e2;
+    transition: 0.09s;
+}
+#scramble_input{
+width: 50%;
+overflow-y: hidden;
+}
+
+p{
+    font-size: 1rem;
+    line-height: 1.4rem;
+    text-align: justify;
+}
+.stats{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    margin-bottom: 1rem;
+}
+span{
+    background-color: aliceblue;
+    padding: 0.3rem 1rem;
+    border-radius: 5px;
+}
+.btn-container{
+    display: flex;
+    justify-content: end;
+}
+.edit-btn{
+    padding: 0.4rem 1rem ;
+    font-size: 1rem;
+    
+}
+select{
+   width: 50%;
+   padding: 0.7rem;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+.redact-container > div >div>span{
+ display: flex ;
+ justify-content: center;
+ align-items: center;
+ cursor: pointer;
+}
+.redact-container > div >div>span:active, .redact-container > div >div>span:focus, .redact-container > div >div>span:hover{
+    background-color: #5358B6; 
+    color: white;
+}
+h1{
+    cursor: pointer;
+    margin-top: 1.5rem;
+}
+
+.add{
+     background-color: #5358B6
+}
