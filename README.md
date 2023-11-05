@@ -3,10 +3,10 @@
 Redactr is a web application built with JavaScript, CSS and HTML
 
 Redactr basically scramble words entered by the user who he /she does not want his readers to see. It allows special characters like
-- *
+- "*"
 - ?
 - _
-- -
+- "-"
 - giz
 - 🍉
 - ❤️
