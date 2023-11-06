@@ -26,7 +26,11 @@ by default it iuses the "*" astericks
 4. finally click on the redactr now button  to see the scrambled word
 ![Alt text](image-3.png)
 
+5. You can as well edit your previous scrambled word by clicking on the edit button on each post
+
 ## Example output
+![Alt text](image-5.png)
+
 ![Alt text](image-4.png)
 
 ## Set-up Guidline
